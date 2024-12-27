@@ -1,6 +1,6 @@
 ﻿namespace Desktop.Robot.Clicks.Windows
 {
-    internal record LeftClick(int delay) : IClick
+    /*internal*/public record LeftClick(int delay) : IClick
     {
         public int Delay => delay;
 
